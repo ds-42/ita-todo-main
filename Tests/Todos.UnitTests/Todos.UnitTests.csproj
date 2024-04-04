@@ -23,17 +23,13 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Using Include="Xunit"/>
+        <Using Include="Xunit" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\..\Application\Todos\Todos.Applications\Todos.Applications.csproj" />
       <ProjectReference Include="..\..\Application\Todos\Todos.Domain\Todos.Domain.csproj" />
       <ProjectReference Include="..\Core\Core.Tests\Core.Tests.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Tests\Commands\" />
     </ItemGroup>
 
 </Project>
